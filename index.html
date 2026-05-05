@@ -34,12 +34,34 @@
 
             <img src="acorns.jpg" alt="A collection of fresh brown acorns displayed for sale" style="width:100%; max-width:600px; display:block; margin:30px auto;">
         </section>
+
+        <section style="margin-top:30px;">
+            <h2>IT Automation Tool</h2>
+            <script>
+                // JSA Module 1: Variables and Data Types
+                let imageSizeKB = 800; // Replace with your actual optimized image size in KB
+                let connectionSpeedKbps = 1000; // 1 Mbps connection
+
+                // JSA Module 2: Operators
+                // Calculate time: (Size in KB * 8 bits) / Speed in Kbps
+                let downloadTimeSeconds = (imageSizeKB * 8) / connectionSpeedKbps;
+
+                // Automation: Write the result to the webpage
+                document.write(
+                    "<p><strong>IT Automation Tool:</strong> This " +
+                    imageSizeKB +
+                    "KB image takes approximately " +
+                    downloadTimeSeconds +
+                    " seconds to load on a 1Mbps connection.</p>"
+                );
+            </script>
+        </section>
     </main>
 
     <hr style="margin-top:40px;">
 
     <footer>
-        <p>&copy; 2026 Acorn Supply Co. Prototype page for Lab 3.</p>
+        <p>&copy; 2026 Acorn Supply Co. Prototype page for Lab 5.</p>
     </footer>
 
 </body>
